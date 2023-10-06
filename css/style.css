@@ -1,0 +1,246 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Source Sans 3', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans 3', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	padding: 15px 0px 0px 0px;
+	background: url("../pics/banner.png") center top no-repeat;
+	background-size: cover;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: #fff;
+    font-size: 16px;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0px 0px 0px 20px;
+}
+
+.header .navbar-nav .nav-link.active{
+	background: url(../pics/line.png) center bottom no-repeat;
+	background-size: auto;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	background: url(../pics/line.png) center bottom no-repeat;
+	background-size: auto;
+}
+
+.banner{
+	width: 100%;
+	padding: 120px 0px;
+}
+
+.banner h4{
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #008ed6;
+	letter-spacing: 1px;
+	font-weight: 600;
+	line-height: 1.2em;
+}
+
+.banner h1{
+	font-size: 44px;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 500;
+	line-height: 1.2em;
+	margin: 10px 0px 13px 0px;
+}
+
+.banner p{
+	font-size: 15px;
+	color: #79797b;
+	font-weight: 400;
+	line-height: 1.7em;
+	margin: 0px 0px 10px;
+}
+
+.banner .action-buttons{
+	width: 100%;
+	padding: 37px 0px 5px;
+}
+
+.banner .action-buttons .btn-primary{
+	display: inline-block;
+	padding: 16px 30px;
+	border: 1px solid #008ed6;
+	background: #008ed6;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	transition: 1s;
+}
+
+.banner .action-buttons .btn-primary:hover, .banner .action-buttons .btn-primary:focus{
+	border: 1px solid #008ed6;
+	background: transparent;
+	color: #008ed6;
+}
+
+.banner .action-buttons .btn-info{
+	display: inline-block;
+	padding: 16px 30px;
+	margin: 0px 0px 0px 25px;
+	border: 1px solid #79797b;
+	background: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	transition: 1s;
+}
+
+.banner .action-buttons .btn-info:hover, .banner .action-buttons .btn-info:focus{
+	border: 1px solid #008ed6;
+	background: #008ed6;
+	color: #fff;
+}
+
+/* global title code starts here*/
+.title{
+	width: 100%;
+	padding: 0px 0px 40px;
+}
+
+.title h4{
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #008ed6;
+	letter-spacing: 1px;
+	font-weight: 600;
+	line-height: 1.2em;
+}
+
+.title h1{
+	font-size: 44px;
+	color: #000;
+	letter-spacing: 1px;
+	font-weight: 500;
+	line-height: 1.2em;
+	margin: 10px 0px 13px 0px;
+}
+/* global title code ends here*/
+
+.features{
+	width: 100%;
+	padding: 70px 0px;
+}
+
+.features .title{
+	text-align: center;
+}
+
+.inner-feature{
+	width: 100%;
+	padding: 40px 40px;
+	text-align: center;
+}
+
+.inner-feature .icon{
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 100%;
+	margin: 0px auto 20px;
+	border: 1px solid #b4b4b4;
+}
+
+.inner-feature h4{
+	font-size: 22px;
+	color: #000;
+	font-weight: 600;
+	line-height: 1.2em;
+}
+
+.inner-feature p{
+	font-size: 15px;
+	color: #79797b;
+	line-height: 1.7em;
+	margin: 0px 0px 10px;
+}
+
+.about-long{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+
+.about-long .title{
+	padding: 50px 0px 25px;
+}
+
+.about-long p{
+	font-size: 16px;
+	color: #79797b;
+	line-height: 1.7em;
+	margin: 13px 0px 10px;
+}
+
+.about-long ul{
+	padding: 0px;
+	display: block;
+	width: 100%;
+	margin: 28px 0px 0px;
+}
+
+.about-long ul li{
+	list-style: none;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.7em;
+	margin: 0px 0px 10px;
+}
+
+.about-long ul li img{
+	width: 16px;
+	height: 15px;
+	margin: 0px 10px 0px 0px;
+}
+
+.about-short{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f2f2;
+}
+
+.about-short .title{
+	padding: 0px 0px 15px;
+	margin: 48px 0px 0px;
+}
+
+.about-short p{
+	font-size: 16px;
+	color: #79797b;
+	line-height: 1.7em;
+	margin: 5px 0px 10px;
+}
+
+.about-short .title h1{
+	font-size: 41px;
+	line-height: 1.7em;
+}
